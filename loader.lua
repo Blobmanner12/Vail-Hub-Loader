@@ -54,7 +54,7 @@ local function createLoaderUI()
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Instance.new('UICorner', Title).CornerRadius = UDim.new(0, 8)
     Title.Parent = MainFrame
-    local KeyInput = Instance.new('')
+    local KeyInput = Instance.new('TextBox')
     KeyInput.Size = UDim2.new(1, -40, 0, 35)
     KeyInput.Position = UDim2.new(0.5, 0, 0.4, 0)
     KeyInput.AnchorPoint = Vector2.new(0.5, 0.5)
